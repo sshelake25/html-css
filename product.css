@@ -1,0 +1,23 @@
+.row-container {
+    border: 1px solid red;
+  
+}
+.manage-position {
+    float: left;
+    border: 2px solid green;
+    /* padding: 5px; */
+    margin: 10px;
+}
+
+.product-image{
+  
+   
+}
+.product-desciption{
+   
+   
+}
+
+.product-price{
+
+}
