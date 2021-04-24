@@ -10,14 +10,37 @@ header{
     padding: 10px;
     width: 300px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 60px;
+     margin-top: 5px;
+     width: 410px;
 }
 
 header div {
-    /* border: 1px solid red; */
+    /*border: 1px solid red; */
     float: left;
 }
 
+ .flipkart-logo{
+    margin-top: 12px;
+    margin-left: 150px;
+ }  
+.login-btn{
+    width: 112px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: #fff;
+    border: none;
+    color: #2874f0;
+    font-weight: 500;
+
+}
+.more-link{
+    color: #fff;
+    font-size: 20px;
+}
+.more-div{
+    margin: 13px 15px 0px 30px;
+}
 .row-container {
     min-height: 430px;
     margin-bottom: 5px;
