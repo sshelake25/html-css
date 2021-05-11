@@ -1,0 +1,59 @@
+body
+{
+	background-color:#f0f0f0;
+	 text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+input[type=text],input[type=password]  {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.signup_form
+{
+	width: 460px;
+    background: #fff;
+    border-radius: 5px;
+    padding-left: 35px;
+    height: 435px;
+    margin-top: 50px;
+}
+.row1
+{
+	float: left;
+	width: 32%;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.email_input{
+	width: 73%;
+	margin-bottom: 10px;
+}
+.fname_row{
+	margin-right: 40px;
+}
+.agree_policy
+{
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+.signup_btn
+{
+	background-color:#69a74e;
+	border-color:#3b6e22 #3b6e22 #2c5115;
+	border-radius: 5px;
+	color: #fff;
+	min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-weight: bold;
+   line-height: 126%;
+
+}
