@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up for Facebook</title>
+	<link rel="stylesheet" type="text/css" href="./fb_style.css">
+	<link rel="shortcut icon" href="fb.ico" />	
+</head>
+<body>
+	<div class="container">
+		<div class="form_content">
+			<div class="title">
+				<h1>Create a new account</h1>
+				<p>It's quick and easy.</p>
+			</div>
+			<form>
+				<div class="name-row">
+					<div class="fname-left">
+						<input type="text" class="inputbox" name="fname" placeholder="First name">
+					</div>
+					<br/>
+					<div class="surname-right">
+						<input type="text" class="inputbox" name="surname" placeholder="Surname">
+					</div>
+				</div>	
+				<br/>
+				<div>
+					<input type="text" class="inputbox" name="mobile_no" placeholder="Mobile number or Email address">
+				</div>
+					<br/>
+				<div>
+					<input type="password" class="inputbox" name="password" placeholder="New password">
+				</div>
+					<br/>
+				<div class="date_birth_row">
+					<div class="date_gender">Date of Birth</div>
+					<div>
+						<select id="date" name="date">
+							<option value="1">1</option>
+					        <option value="2">2</option>
+					        <option value="3">3</option>
+					        <option value="4">4</option>
+					        <option value="5">5</option>
+					        <option value="6">6</option>
+						</select>
+						<select id="month" name="month">
+							<option value="Jan">Jan</option>
+					        <option value="Feb">Feb</option>
+					        <option value="Mar">Mar</option>
+					        <option value="Apr">Apr</option>
+					        <option value="May">May</option>
+					        <option value="Jun">Jun</option>
+						</select>
+						<select id="year" name="year">
+							<option value="2021">2021</option>
+					        <option value="2020">2020</option>
+					        <option value="2019">2019</option>
+					        <option value="2018">2018</option>
+					        <option value="2017">2017</option>
+					        <option value="2016">2016</option>
+						</select>
+					</div>
+				</div>
+				<br>
+				<div class="gender-details">
+					<div class="date_gender">Gender</div>
+					<span class="radio_btn">
+						<input type="radio" name="radio" id="radio">
+						<label>Female</label>
+					</span>
+					<span class="radio_btn">
+						<input type="radio" name="radio" id="radio">
+						<label>Male</label>
+					</span>
+					<span class="radio_btn">
+						<input type="radio" name="radio" id="radio">
+						<label>Custom</label>
+					</span>
+				</div>
+				<div class="agree_policy">
+					<p >By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy </a>and <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+				</div>
+				<div signup_btn>
+					<button type="submit" class="signup_btn">Sign Up</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
